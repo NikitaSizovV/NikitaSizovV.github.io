@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/compiled/main.css">
+    
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="header__title">Gifty AI</h1>
+            <h2 class="header__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco </h2>
+        </header>
+        <main class="main">
+            <div class="content">
+                <div class="content__title">
+                    Answer simple questions to generate a suggestion:
+                </div>
+                <form action="#" class="form">
+                    <label for="relationship" class="required">
+                        <span class="big-text">Relationship</span>
+                        <span class="small-text" style="margin-left: 6px;">(Ex. Mum / dad / co-woker)</span>
+                    </label>
+                    <input type="text" name="relationship" id="relationship" placeholder="Enter text here">
+                    <label for="gender" class="required">
+                        <span class="big-text">Gender</span>
+                    </label>
+                    <select type="text" name="gender" id="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                        <option value="no">Prefer not to say</option>
+                    </select>
+                    <label for="age" class="required">
+                        <span class="big-text">Age</span>
+                    </label>
+                    <input type="text" name="age" id="age" placeholder="Enter age here">
+                    <label for="interest" class="required">
+                        <span class="big-text">Relationship</span>
+                        <br>
+                        <span class="small-text">
+                            Here you can describe anything you think could help us come-up with the best 
+                            suggestions.<br><br>
+                            
+                            (Ex. He is a mechanic, on the weekends he likes to go fishing with his friends on a 
+                            nearby river. He likes to bring his dog as well)
+                        </span>
+                    </label>
+                    <input type="text" name="interest" id="interest" placeholder="Enter text here">
+                    <label for="budget" class="required">
+                        <span class="big-text">Budget</span>
+                    </label>
+                    <input type="text" name="budget" id="budget" placeholder="Enter text here">
+                </form>
+                <button type="submit" class="btn_submit">GENERATE AI SUGGESTIONS</button>
+            </div>
+        </main>
+    
+</div>
+
+<script src="js/main.js"></script>
+</body>
+
+
+</html>
